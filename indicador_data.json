@@ -1,0 +1,19 @@
+{
+    "zonas_institucionales": [
+      {"precio": 42000, "tipo": "resistencia"},
+      {"precio": 39000, "tipo": "soporte"}
+    ],
+    "ballenas": [
+      {"precio": 41500, "volumen": 1200, "tipo": "compra"},
+      {"precio": 40500, "volumen": 950, "tipo": "venta"}
+    ],
+    "delta_volumen": [
+      {"timestamp": "2024-05-06T10:00:00Z", "delta": 150},
+      {"timestamp": "2024-05-06T10:05:00Z", "delta": -75}
+    ],
+    "senales": [
+      {"tipo": "entrada", "precio": 40000, "timestamp": "2024-05-06T10:10:00Z"},
+      {"tipo": "salida", "precio": 41000, "timestamp": "2024-05-06T10:30:00Z"}
+    ]
+  }
+  

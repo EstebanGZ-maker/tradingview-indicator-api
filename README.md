@@ -2,19 +2,19 @@
 
 Este proyecto genera un indicador avanzado que muestra zonas institucionales, ballenas, delta de volumen y señales de entrada/salida, alimentado por datos externos.
 
-## 📦 Requisitos
+##  Requisitos
 
 - Python 3.8+
 - `pip install -r requirements.txt`
 
-## 🛠 Estructura
+##  Estructura
 
 - `app/procesador_trading.py`: Genera archivo `indicador_data.json`
 - `app/api_tradingview.py`: Servidor Flask para exponer el JSON
 - `indicador_data.json`: Archivo de salida consumido por TradingView
 - `run.sh`: Script para lanzar todo fácilmente
 
-## 🚀 Uso
+##  Uso
 
 ```bash
 # 1. Crear entorno virtual

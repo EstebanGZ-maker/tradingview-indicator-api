@@ -4,7 +4,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app)  # ✅ Esto habilita CORS para todos los dominios
+CORS(app)  #  Esto habilita CORS para todos los dominios
 
 # Ruta al archivo JSON
 JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'indicador_data.json')
